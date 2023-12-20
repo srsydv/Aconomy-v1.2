@@ -1,0 +1,30 @@
+{
+  "name": "aconomy-v1.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srsydv/Aconomy-v1.2.git"
+  },
+  "author": "Shrish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srsydv/Aconomy-v1.2/issues"
+  },
+  "homepage": "https://github.com/srsydv/Aconomy-v1.2#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.0.0",
+    "hardhat": "^2.19.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.2",
+    "dotenv": "^16.3.1",
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}
